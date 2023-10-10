@@ -9,3 +9,8 @@ waitress==2.1.2
 
 # For installing pipenv
 pip install pipenv
+
+docker run -it --rm python:3.8.11-slim
+
+docker build -t zoomcamp-test .
+docker run -it --rm --entrypoint=bash zoomcamp-test
