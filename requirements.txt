@@ -1,0 +1,11 @@
+ipykernel == 6.25.2
+pandas==2.1.1
+scikit-learn==1.3.1
+flask==3.0.0 
+requests==2.31.0
+waitress==2.1.2
+
+
+
+# For installing pipenv
+pip install pipenv
